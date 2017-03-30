@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WizardController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WizardController.'
+  s.summary          = 'WizardController makes it easy to create wizard steps in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Wizard consists of a sequence of well-defined steps to lead user through a task, i.e., signing up a user.
+Passing data through the steps is probably not a good idea.
+WizardController makes it easy to create wizard steps in Swift.
                        DESC
 
   s.homepage         = 'https://github.com/jeantimex/WizardController'
